@@ -176,22 +176,24 @@
     margin: auto;
 }
 
-.home-type-product {
+.home-type-product1 {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.home-type-product .card {
+.home-type-product1 .card {
     display: flex;
     margin: auto;
 }
 
-.home-type-product .card .img {
+.home-type-product1 .card .img {
     margin: auto;
     max-width: 168px;
     max-height: 168px;
 }
 
-.home-type-product .card .title {
+.home-type-product1 .card .title {
     font-style: normal;
     font-weight: 700;
     font-size: 21px;
@@ -200,6 +202,8 @@
     color: #000000;
     margin: auto;
 }
+
+
 
 .home-information {
     margin-top: 183px;
@@ -233,6 +237,7 @@
     display: flex;
     left: 50%;
     transform: translateX(-50%);
+    margin: auto;
     top: 130px;
 }
 
@@ -275,6 +280,7 @@
 }
 
 .home-main .sell-a-lot .title {
+    text-align: center;
     display: flex;
 }
 
@@ -317,14 +323,21 @@
     height: 141px;
 }
 
+.home-main .sell-a-lot .products1 {
+    display: none;
+}
+
 .home-main .sell-a-lot .products {
     margin-top: 80px;
     display: flex;
 }
 
 .home-main .sell-a-lot .products .card {
+    width: 30%;
     margin: auto;
     height: 370px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .home-main .sell-a-lot .products .card .img {
@@ -332,7 +345,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 270px;
+    width: 100%;
 }
 
 .home-main .sell-a-lot .products .card .img:hover {
@@ -398,12 +411,10 @@
     line-height: 25px;
     text-align: center;
     letter-spacing: 0.05em;
-    /* Black/Black Darker */
     color: #22242F;
 }
 
 .new-product .list-new-product {
-    /* display: flex; */
     margin-top: 80px;
 }
 
@@ -500,12 +511,14 @@
 }
 
 .home-list-product .line .line-silver {
-    border: 1px solid #ACAFC3;
+    border-bottom: 1px solid #ACAFC3;
 }
 
 .home-list-product .list-product {
     display: flex;
     margin-top: 59px;
+    align-items: center;
+    justify-content: center;
 }
 
 .home-list-product .list-product .list-product-card {
@@ -579,8 +592,11 @@
 }
 
 .home-main .home-tiltok .tiktok-list-img {
+    margin: auto;
     margin-top: 62px;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .home-main .home-tiltok .tiktok-list-img img {
@@ -628,7 +644,7 @@
     color: #FFFFFF;
 }
 
-.home-gallery .home-gallery-container .home-gallery-item img {
+.home-gallery .home-gallery-container .home-gallery-item .img-user {
     border-radius: 50%;
     margin-top: 37.43px;
     display: block;
@@ -798,6 +814,11 @@
     align-self: self-start;
     margin-left: auto;
     transform: translateY(-2%);
+}
+
+.home-main .home-about-us .home-video-about-us .home-video-about-us-size {
+    width: 615px;
+    height: 618px;
 }
 
 .home-main .home-knowledge-for-product {
@@ -984,12 +1005,629 @@
     letter-spacing: 0.05em;
     margin-top: 12px;
 }
-.home-footer .home-footer-information .home-footer-information-column2 .visa{
+
+.home-footer .home-footer-information .home-footer-information-column2 .visa {
     display: flex;
     margin-top: 48.59px;
 }
-.home-footer .home-footer-information .logo-big{
+
+.home-footer .home-footer-information .logo-big {
     position: absolute;
     right: 0;
-    transform: translate(10%,80%);
+    transform: translate(10%, 80%);
 }
+
+.home-header .user .shoping {
+    margin-left: 40.93px;
+}
+
+.home-header .user .search {
+    margin-left: 50.38px;
+}
+
+.home-header .menu {
+    display: none;
+}
+
+.home-type-product2 {
+    display: none;
+}
+
+.home-main .new-product .list-new-product1 {
+    display: none;
+}
+
+.type-product-mobile {
+    display: none;
+}
+
+.home-list-product .mobile {
+    display: none;
+}
+
+.home-main .home-about-us .information-about-us .img-logo-about-us-mobile {
+    display: none;
+}
+
+.home-main .pc {
+    display: block;
+}
+
+.home-main .mobile {
+    display: none;
+}
+
+/* Mobile: width < 740px */
+@media only screen and (max-width: 46.1875em) {
+    .home-main .home-main-product {
+        display: none;
+    }
+
+    .type-product-mobile {
+        display: block;
+    }
+
+    .home-list-product .mobile {
+        display: block;
+    }
+
+    .home-list-product .pc {
+        display: none;
+    }
+
+    .home-header--profile .home-header--profile__contact .home-header--profile--email {
+        display: none;
+    }
+
+    .home-header--profile .home-header--profile__ship {
+        display: none;
+    }
+
+    .home-header .user .avata-user {
+        display: none;
+    }
+
+    .home-header--data .header {
+        display: none;
+    }
+
+    .home-header .user .angle-down {
+        display: none;
+    }
+
+    .home-header .menu {
+        display: block;
+        position: absolute;
+        top: 11px;
+        left: 12px;
+    }
+
+    .home-header .home-header--data .user .trans {
+        display: none;
+    }
+
+    .home-header .user .shoping {
+        margin-left: 16.75px;
+    }
+
+    .home-header .user .search {
+        margin-left: 60.04px;
+    }
+
+    .home-header .home-header--data .logo {
+        width: 101.96px;
+        height: 72px;
+    }
+
+    .home-header .home-header--data .link-img {
+        left: 16px;
+    }
+
+    .home-header .home-header--data .cloud1 {
+        display: none;
+    }
+
+    .home-header .home-header--data .cloud2 {
+        display: none;
+    }
+
+    .home-header .home-header--data .carousel-indicators {
+        left: 27px;
+        bottom: 33px;
+    }
+
+    .home-type-product {
+        align-items: baseline;
+        justify-content: none;
+        justify-content: flex-start;
+    }
+
+    .home-information .home-information-more .icons .card .title {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 150%;
+        text-align: center;
+    }
+
+    .home-information .home-information-more .icons .card .title-small {
+        font-weight: 400;
+        font-size: 9.91206px;
+        line-height: 150%;
+    }
+
+    .home-information .home-information-more .cloud2 {
+        display: none;
+    }
+
+    .home-information .home-information-more .cloud1 {
+        display: none;
+    }
+
+    .home-information .img {
+        height: 343px;
+    }
+
+    .home-information {
+        margin-top: 22px
+    }
+
+    .home-information .home-information-more .icons {
+        flex-wrap: wrap;
+        top: 0;
+        width: 100%;
+    }
+
+    .home-information .home-information-more .icons .card {
+        width: 50%;
+    }
+
+    .home-header .home-header--data .line {
+        margin-top: 0;
+    }
+
+    .home-header .home-header--data .user {
+        top: 16.36px;
+        right: 15.94px;
+    }
+
+    .home-header .home-header--data .link-img .btn {
+        width: 233px;
+        height: 44.31px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.1em;
+    }
+
+    .home-header .home-header--data .link-img .title {
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 35px;
+        letter-spacing: 0.05em;
+    }
+
+    .owl-carousel {
+        display: none;
+    }
+
+    .home-type-product1 {
+        display: none;
+    }
+
+    .home-type-product2 {
+        display: flex;
+    }
+
+    .home-type-product2 .card {
+        display: flex;
+    }
+
+    .home-type-product2 .card .img {
+        margin: auto;
+    }
+
+    .home-type-product2 .card .title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.1em;
+        color: #000000;
+        margin: auto;
+    }
+
+    .rim-right-silver {
+        display: none;
+    }
+
+    .rim-left-silver {
+        display: none;
+    }
+
+    .rim-right-white {
+        display: none;
+    }
+
+    .rim-left-white {
+        display: none;
+    }
+
+    .home-main {
+        margin-top: 44px;
+    }
+
+    .home-main .sell-a-lot .title .title2 {
+        font-weight: 800;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .home-main .sell-a-lot .title .line-comment-about-us {
+        display: none;
+    }
+
+    .home-main .sell-a-lot {
+        width: 95%;
+        margin-top: 85px !important;
+    }
+
+    .home-main .sell-a-lot .title .line {
+        width: 30%;
+    }
+
+    .home-gallery .home-gallery-container .home-gallery-item-2 {
+        width: 374.09px;
+        height: 219.28px;
+        left: 0;
+        transform: translateX(0);
+    }
+
+    .home-gallery .home-gallery-container .home-gallery-item-1 {
+        display: none;
+    }
+
+    .home-gallery .home-gallery-container .home-gallery-item-3 {
+        display: none;
+    }
+
+    .home-gallery .home-gallery-container {
+        margin-top: 18px;
+        width: 374.09px;
+        height: 219.28px;
+    }
+
+    .home-main .home-about-us .information-about-us {
+        width: 80%;
+        margin: auto;
+    }
+
+    .home-main .home-about-us .information-about-us .img-logo-about-us-mobile {
+        display: block;
+        margin: 0 auto;
+        margin-top: 24px;
+    }
+
+    .home-main .home-about-us .information-about-us .img-about-us2 {
+        display: none;
+    }
+
+    .home-main .home-about-us .information-about-us .img-about-us3 {
+        display: none;
+    }
+
+    .home-main .home-about-us .information-about-us .img-about-us4 {
+        display: none;
+    }
+
+    .home-main .home-about-us .information-about-us .title-about-us {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 27px;
+        text-align: center;
+        margin-top: 18px;
+
+    }
+
+    .home-main .home-about-us .information-about-us .detailed-information {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: 0.05em;
+        width: 302px;
+        height: 119px;
+        margin-top: 24px;
+    }
+
+    .home-main .home-about-us .information-about-us .btn-about-us {
+        width: 163px;
+        height: 31px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 16px;
+        font-weight: 700;
+        font-size: 11.223px;
+        line-height: 13px;
+        letter-spacing: 0.1em;
+    }
+
+    .home-main .home-gallery-btn-next-page {
+        margin-top: 17.72px;
+    }
+
+    .home-main .home-about-us {
+        margin-top: 59.15px;
+        height: 652px;
+        flex-direction: column;
+    }
+
+    .home-main .home-about-us .information-about-us .img-about-us1 {
+        display: none;
+    }
+
+    .home-gallery .home-gallery-container .home-gallery-item .img-user {
+        margin-top: 22.47px;
+        width: 57.55px;
+        height: 57.55px;
+    }
+
+    .home-gallery .home-gallery-container .home-gallery-item .name-user {
+        font-weight: 600;
+        font-size: 9.20848px;
+        line-height: 11px;
+        text-align: center;
+        margin-top: 17.24px;
+    }
+
+    .home-main .home-about-us .home-video-about-us {
+        margin: 0 auto;
+        margin-top: 32px;
+    }
+
+    .home-main .pc {
+        display: none;
+    }
+
+    .home-main .mobile {
+        display: block;
+    }
+
+    .home-main .home-knowledge-for-product {
+        margin-left: 16px;
+        margin-top: 32px;
+        width: 100%;
+    }
+
+    .home-main .home-knowledge-for-product .card-knowledge {
+        width: 228.31px;
+    }
+
+    .home-main .home-knowledge-for-product .card-knowledge img {
+        width: 100%;
+        height: 189.88px;
+    }
+
+    .home-main .home-knowledge-for-product .card-knowledge .title-knowledge {
+        font-weight: 600;
+        font-size: 11.6937px;
+        line-height: 14px;
+        width: 195.45px;
+        height: 31.74px;
+        float: left;
+        margin-top: 18.38px;
+    }
+
+    .home-main .home-about-us .home-video-about-us .home-video-about-us-size {
+        width: 293px;
+        height: 238.26px;
+
+    }
+
+    .home-gallery .home-gallery-container .home-gallery-item .stars {
+        margin-top: 7.59px;
+
+    }
+
+    .home-gallery .home-gallery-container .home-gallery-item .comment-user {
+        font-weight: 600;
+        font-size: 8.63295px;
+        line-height: 10px;
+        text-align: center;
+        margin-top: 17.76px;
+    }
+
+    .home-gallery .home-gallery-container .home-gallery-item .stars .img-star {
+        width: 9.21px;
+        height: 9.21px;
+        margin: auto;
+    }
+
+    .home-main .sell-a-lot .title .title1 {
+        text-align: center;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .home-main .sell-a-lot .products {
+        display: none;
+    }
+
+    .home-main .sell-a-lot .products1 {
+        margin-top: 32px;
+        display: flex;
+    }
+
+    .home-main .sell-a-lot .products1 .card {
+        width: 263px;
+        margin: auto;
+
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .home-main .sell-a-lot .products1 .card .img {
+        object-fit: cover;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 263px;
+    }
+
+    .home-main .sell-a-lot .products1 .card .title-product {
+        width: 108px;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        margin: 0 auto;
+        margin-top: 16px;
+    }
+
+    .home-main .sell-a-lot .btn {
+        width: 163.02px;
+        height: 31px;
+        font-weight: 700;
+        font-size: 11.2241px;
+        line-height: 13px;
+        letter-spacing: 0.1em;
+        margin-top: 24px;
+    }
+
+    .home-main .new-product {
+        margin-top: 26px;
+        height: 417px;
+    }
+
+    .home-main .new-product .new-product-title {
+        padding-top: 26px;
+        width: 95%;
+    }
+
+    .home-main .new-product .new-product-title .title .title1 {
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: center;
+    }
+
+    .home-main .new-product .new-product-title .title .line {
+        width: 30%;
+    }
+
+    .home-main .new-product .list-new-product {
+        display: none;
+    }
+
+    .home-main .new-product .list-new-product1 {
+        margin-top: 32px;
+        display: block;
+    }
+
+    .home-main .new-product .list-new-product1 .card {
+        width: 263px;
+    }
+
+    .home-main .new-product .list-new-product1 .card img {
+        object-fit: cover;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 263px;
+        height: 263px;
+    }
+
+
+    .home-main .new-product .list-new-product1 .card .title-new-product {
+        margin: 0 auto;
+        margin-top: 16px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #22242F;
+        height: 60px;
+        width: 108px;
+    }
+
+    .home-main .home-list-product .title .title-product-in-type-product {
+        display: none;
+    }
+
+    .home-main .home-list-product {
+        margin-top: 60px !important;
+        width: 95%;
+    }
+
+    .home-main .home-list-product .title .btn-next-page .btn-left {
+        width: 23.56px;
+        height: 23.56px;
+    }
+
+    .home-main .home-list-product .title .btn-next-page .btn-right {
+        width: 23.56px;
+        height: 23.56px;
+    }
+
+    .home-main .home-list-product .title .title-type-product {
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .home-main .home-list-product .title .btn-next-page .btn-left .img-btn-left {
+        transform: scale(0.6);
+        padding: 3px !important;
+    }
+
+    .home-main .home-list-product .title .btn-next-page .btn-right .img-btn-right {
+        transform: scale(0.6);
+        padding: 3px !important;
+    }
+
+    .home-list-product .list-product {
+        margin-top: 18px;
+        justify-content: left;
+    }
+
+    .home-list-product .list-product .list-product-card {
+        width: 225px;
+        height: 288px;
+    }
+
+    .home-list-product .list-product .list-product-card img {
+        width: 210px;
+        height: 210px;
+    }
+
+    .home-list-product .list-product .list-product-card .title-product {
+        font-weight: 500;
+        font-size: 15.75px;
+        line-height: 19px;
+        text-align: center;
+        margin-top: 12px;
+    }
+
+    .home-list-product .list-product .list-product-card .price-product {
+        font-weight: 500;
+        font-size: 12.75px;
+        line-height: 15px;
+    }
+
+    .home-footer .home-footer-black .home-footer-black-information {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 150%;
+        letter-spacing: 0.05em;
+    }
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.1875em) and (max-width: 63.9375em) {}
