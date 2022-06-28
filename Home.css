@@ -280,10 +280,13 @@
 }
 
 .home-main .sell-a-lot .title {
-    text-align: center;
+    
     display: flex;
 }
-
+.home-main .home-type-product .card .title{
+    text-align: center;
+    display: block;
+}
 .home-main .sell-a-lot .title .line {
     width: 38%;
     height: 1px;
@@ -1056,7 +1059,9 @@
 .home-main .mobile {
     display: none;
 }
-
+.home-main .home-instagram{
+    display: none;
+}
 /* Mobile: width < 740px */
 @media only screen and (max-width: 46.1875em) {
     .home-main .home-main-product {
@@ -1636,6 +1641,7 @@
         height: 258px;
         width: 100%;
         background: #F3F4F6;
+        display: block;
     }
 
     .home-main .home-instagram .home-instagram-title {
