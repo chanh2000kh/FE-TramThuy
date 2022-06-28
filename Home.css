@@ -1627,6 +1627,69 @@
         line-height: 150%;
         letter-spacing: 0.05em;
     }
+
+    .home-main .home-tiltok {
+        display: none;
+    }
+
+    .home-main .home-instagram {
+        height: 258px;
+        width: 100%;
+        background: #F3F4F6;
+    }
+
+    .home-main .home-instagram .home-instagram-title {
+        width: 95%;
+        margin: 0 auto;
+        padding-top: 24px;
+    }
+
+    .home-main .home-instagram .home-instagram-title .title {
+        display: flex;
+    }
+
+    .home-main .home-instagram .home-instagram-title .title .title1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: center;
+        color: #22242F;
+        margin: auto;
+    }
+
+    .home-main .home-instagram .home-instagram-title .title .line {
+        width: 35%;
+        margin: auto;
+        border-bottom: 1px solid #7C82A1;
+    }
+
+    .home-main .home-instagram .instagram-list-img {
+        display: flex;
+        margin-top: 32px;
+    }
+
+    .home-main .home-instagram .instagram-list-img img {
+        width: 102.27px;
+        height: 102.27px;
+        margin: auto;
+    }
+
+    .home-main .home-instagram .btn {
+        display: block;
+        margin: 0 auto;
+        width: 163px;
+        height: 25.56px;
+        background: #DBAA53;
+        margin-top: 32.73px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 9.25453px;
+        line-height: 11px;
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+        border: none;
+    }
 }
 
 /* Tablet: width >= 740px and width < 1024px */
