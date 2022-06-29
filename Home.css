@@ -3,6 +3,8 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    list-style: none;
 }
 
 .home-header--profile {
@@ -632,7 +634,7 @@
     display: flex;
     height: 400px;
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 70%;
     position: relative;
     margin-top: 71px;
 }
@@ -643,7 +645,7 @@
     position: absolute;
     transition: all 0.3s ease-in-out;
     z-index: 0;
-    width: 623px;
+    width: 55%;
     color: #FFFFFF;
 }
 
@@ -712,8 +714,8 @@
     opacity: 1;
     transform: scale(1.11);
     left: 50%;
-    Width: 692.65px;
     Height: 406px;
+    width: 65%;
     transform: translateX(-50%);
     z-index: 2;
 }
@@ -767,7 +769,7 @@
 }
 
 .home-main .home-about-us .information-about-us .detailed-information {
-    width: 784px;
+    width: 90%;
     height: 192px;
     font-style: normal;
     font-weight: 400;
@@ -1017,7 +1019,7 @@
 .home-footer .home-footer-information .logo-big {
     position: absolute;
     right: 0;
-    transform: translate(10%, 80%);
+    transform: translateY(80%);
 }
 
 .home-header .user .shoping {
@@ -1403,11 +1405,11 @@
     .home-main .home-knowledge-for-product {
         margin-left: 16px;
         margin-top: 32px;
-        width: 100%;
+        width: 96%;
     }
 
     .home-main .home-knowledge-for-product .card-knowledge {
-        width: 228.31px;
+        width: 100%;
     }
 
     .home-main .home-knowledge-for-product .card-knowledge img {
@@ -1603,12 +1605,12 @@
     }
 
     .home-list-product .list-product .list-product-card {
-        width: 225px;
+        width: 23%;
         height: 288px;
     }
 
     .home-list-product .list-product .list-product-card img {
-        width: 210px;
+        width: 100%;
         height: 210px;
     }
 
@@ -1695,6 +1697,16 @@
         letter-spacing: 0.1em;
         color: #FFFFFF;
         border: none;
+    }
+    .home-footer .home-footer-information .home-footer-information-column1
+    {
+        display: none;
+    }
+    .home-footer .home-footer-information .home-footer-information-column2{
+        display: none;
+    }
+    .home-footer .home-footer-information .logo-big{
+        display: none;
     }
 }
 

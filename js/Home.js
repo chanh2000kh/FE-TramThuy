@@ -26,11 +26,12 @@ $('.list-product-incense').owlCarousel({
     navText: ['<div class="btn-left"><img class="img-btn-left" src="./img/Vector-left.png" alt="" style="margin: auto; padding: 7px; display: block;"></div>', "&#x27;prev&#x27;"],
     items: 1.4,
 })
+
 $('.home-knowledge-for-product-mobile').owlCarousel({
     loop: true,
     margin: 5,
     dots: false,
-    items: 1.5,
+    items: 1.4,
 })
 
 $(document).ready(function () {
