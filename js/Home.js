@@ -14,7 +14,7 @@ $('.list-product-jewels').owlCarousel({
     margin: 5,
     nav: true,
     dots: false,
-    navText: ['<div class="btn-left"><img class="img-btn-left" src="./img/Vector-left.png" alt="" style="margin: auto; padding: 7px; display: block;"></div>', "&#x27;prev&#x27;"],
+    navText: ['<div class="home-btn-left-mobile home-btn-next-page-mobile"><img class="img-btn-left" src="./img/Vector-left.png" alt="" style="margin: auto; padding: 7px; display: block;"></div>', '<div class="home-btn-right-mobile home-btn-next-page-mobile"><img class="img-btn-right" src="./img/Vector-right.png" alt="" style="margin: auto; padding: 7px; display: block;"></div>'],
     items: 1.4,
 })
 
@@ -23,7 +23,7 @@ $('.list-product-incense').owlCarousel({
     margin: 5,
     nav: true,
     dots: false,
-    navText: ['<div class="btn-left"><img class="img-btn-left" src="./img/Vector-left.png" alt="" style="margin: auto; padding: 7px; display: block;"></div>', "&#x27;prev&#x27;"],
+    navText: ['<div class="home-btn-left-mobile home-btn-next-page-mobile"><img class="img-btn-left" src="./img/Vector-left.png" alt="" style="margin: auto; padding: 7px; display: block;"></div>', '<div class="home-btn-right-mobile home-btn-next-page-mobile"><img class="img-btn-right" src="./img/Vector-right.png" alt="" style="margin: auto; padding: 7px; display: block;"></div>'],
     items: 1.4,
 })
 
