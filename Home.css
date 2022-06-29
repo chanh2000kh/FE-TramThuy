@@ -528,7 +528,7 @@
 
 .home-list-product .list-product .list-product-card {
     border: 1px solid #ACAFC3;
-    width: 300px;
+    width: 23%px;
     height: 384px;
     color: #22242F;
     margin: auto;
@@ -540,7 +540,7 @@
 }
 
 .home-list-product .list-product .list-product-card img {
-    width: 280px;
+    width: 95%;
     height: 280px;
     margin: 10px 10px 0 10px;
 }
@@ -605,7 +605,7 @@
 }
 
 .home-main .home-tiltok .tiktok-list-img img {
-    width: 300px;
+    width: 24%;
     height: 300px;
     margin: auto;
 }
@@ -756,7 +756,8 @@
 
 .home-main .home-about-us .information-about-us {
     color: #000000;
-    margin-left: 121px;
+    margin-left: 5%;
+    width: 60%;
 }
 
 .home-main .home-about-us .information-about-us .title-about-us {
@@ -770,7 +771,6 @@
 
 .home-main .home-about-us .information-about-us .detailed-information {
     width: 90%;
-    height: 192px;
     font-style: normal;
     font-weight: 400;
     font-size: 21px;
@@ -796,6 +796,7 @@
     position: absolute;
     left: 0;
     transform: translateY(-6%);
+    width: 5%;
 }
 
 .home-main .home-about-us .information-about-us .img-about-us2 {
@@ -819,10 +820,11 @@
     align-self: self-start;
     margin-left: auto;
     transform: translateY(-2%);
+    width: 40%;
 }
 
 .home-main .home-about-us .home-video-about-us .home-video-about-us-size {
-    width: 615px;
+    width: 100%;
     height: 618px;
 }
 
@@ -835,17 +837,18 @@
 
 .home-main .home-knowledge-for-product .card-knowledge {
     margin: auto;
+    width: 33%;
 }
 
 .home-main .home-knowledge-for-product .card-knowledge img {
-    width: 380px;
+    width: 100%;
     Height: 341px;
     margin: auto;
 }
 
 .home-main .home-knowledge-for-product .card-knowledge .title-knowledge {
     margin-top: 33px;
-    width: 351px;
+    width: 80%;
     height: 57px;
     font-style: normal;
     font-weight: 600;
@@ -1606,7 +1609,7 @@
     }
 
     .home-list-product .list-product .list-product-card {
-        width: 23%;
+        width: 100%;
         height: 288px;
     }
 
