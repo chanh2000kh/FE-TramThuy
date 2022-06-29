@@ -1020,6 +1020,7 @@
     position: absolute;
     right: 0;
     transform: translateY(80%);
+    width: 40%;
 }
 
 .home-header .user .shoping {
