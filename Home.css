@@ -187,11 +187,12 @@
 .home-type-product1 .card {
     display: flex;
     margin: auto;
+    width: 24%;
 }
 
 .home-type-product1 .card .img {
     margin: auto;
-    max-width: 168px;
+    max-width: 50%;
     max-height: 168px;
 }
 
@@ -1307,6 +1308,7 @@
         margin-top: 18px;
         width: 374.09px;
         height: 219.28px;
+        max-width: 100%;
     }
 
     .home-main .home-about-us .information-about-us {
@@ -1394,8 +1396,8 @@
     }
 
     .home-main .home-about-us .home-video-about-us {
-        margin: 0 auto;
-        margin-top: 32px;
+        width: 100%;
+        margin-top: 32px;      
     }
 
     .home-main .pc {
@@ -1434,7 +1436,8 @@
     .home-main .home-about-us .home-video-about-us .home-video-about-us-size {
         width: 293px;
         height: 238.26px;
-
+        display: block;
+        margin: 0 auto;
     }
 
     .home-gallery .home-gallery-container .home-gallery-item .stars {
