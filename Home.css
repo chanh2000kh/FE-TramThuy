@@ -1085,14 +1085,26 @@
     display: none;
 }
 
+.home-footer .home-footer-information .home-footer-information-column1-mobile{
+    display: none;
+}
+.home-footer .home-footer-information .home-footer-information-column2-mobile{
+    display: none;
+}
+.home-footer .home-footer-information .home-footer-information-column3-mobile
+{
+    display: none
+}
+
 /* Mobile: width < 740px */
 @media only screen and (max-width: 46.1875em) {
 
-    .home-btn-next-page-mobile{
+    .home-btn-next-page-mobile {
         position: absolute;
-        
+
         transform: translateY(-360px);
     }
+
     .home-btn-left-mobile {
         border: 1px solid #ACAFC3;
         width: 23.56px;
@@ -1699,7 +1711,8 @@
         margin-top: 60px !important;
         width: 95%;
     }
-    .home-main .home-list-product .title .btn-next-page{
+
+    .home-main .home-list-product .title .btn-next-page {
         display: none;
     }
 
@@ -1811,6 +1824,98 @@
         border: none;
     }
 
+    .home-footer .home-footer-information {
+        height: 670px;
+        background: url(./img/Rectangle\ 115.png);
+        display: block;
+    }
+
+    .home-footer .home-footer-information .home-footer-information-column1-mobile {
+        width: 92%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .home-footer .home-footer-information .home-footer-information-column1-mobile .logo-mobile {
+        position: absolute;
+        transform: translateX(-10%);
+        width: 130.28px;
+        height: 92px;
+    }
+
+    .home-footer .home-footer-information .home-footer-information-column1-mobile .title-phone-email-mobile {
+        text-align: right;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 150%;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+    }
+
+    .home-footer .home-footer-information .home-footer-information-column1-mobile .paragraph-mobile {
+        margin-top: 26px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 150%;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+    }
+
+    .home-footer .home-footer-information .home-footer-information-column2-mobile {
+        display: flex;
+        align-items: center;
+        width: 92%;
+        margin-top: 14px;
+    }
+
+    .home-footer .home-footer-information .home-footer-information-column2-mobile .icons-mobile {
+        display: flex;
+        align-items: center;
+        width: 40%;
+    }
+
+    .home-footer .home-footer-information .home-footer-information-column3-mobile {
+        width: 92%;
+        margin: auto;
+        margin-top: 35px;
+        display: block;
+    }
+
+    .home-footer .home-footer-information .home-footer-information-column3-mobile .products {
+        color: #FFFFFF;
+    }
+
+    .home-footer .home-footer-information .home-footer-information-column3-mobile .products .title-products {
+        display: flex;
+        align-items: center;
+    }
+    .home-footer .home-footer-information .home-footer-information-column3-mobile .products .line-fooder-mobile{
+        border-bottom: 0.5px solid #F3F4F6;
+        margin-top: 14px;
+    }
+    .home-footer .home-footer-information .home-footer-information-column3-mobile .products .title-products {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: 0.1em;
+        
+    }
+
+    .home-footer .home-footer-information .home-footer-information-column3-mobile .products .footer-list-products-mobile{
+        height: 50px;
+        transition: height 0.25s ease-in;
+        background: #000000;
+        display: none;
+    }
+
+    .home-footer .home-footer-information .home-footer-information-column3-mobile .products .title-products .check-listproducts {
+        display: none;
+    }
+    .home-footer .home-footer-information .home-footer-information-column3-mobile .products .title-products .check-listproducts:checked~.home-footer .home-footer-information .home-footer-information-column3-mobile .products .footer-list-products-mobile{
+        display: none;
+    }
     .home-footer .home-footer-information .home-footer-information-column1 {
         display: none;
     }
