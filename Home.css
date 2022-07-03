@@ -544,8 +544,9 @@
 
 .home-list-product .list-product .list-product-card img {
     width: 90%;
-    height: 280px;
-    margin: 10px 10px 0 10px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
 }
 
 .home-list-product .list-product .list-product-card .title-product {
