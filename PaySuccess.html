@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,11 +7,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="./Home.css">
     <link rel="stylesheet" href="./css/ListProduct.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/PayDetail.css">
+    <link rel="stylesheet" href="./css/PaySuccess.css">
+    <link rel="stylesheet" href="./css/PayDetail.css">
 </head>
-
 <body>
     <input class="nav__input-mobile" type="checkbox" name="" id="nav-mobile-input">
     <div class="home-nav-mobile">
@@ -129,344 +127,168 @@
 
     </div>
     <div class="link-page-all">
-        <div class="title" style="margin-left:  10%">
-            Trang chủ
-        </div>
-        <img src="./img/dashicons_arrow-left-alt2 (1).png" alt="" style="width: 17px; height: 17px; margin-left: 12px;">
-        <div class="title" style="margin-left:  12px">
-            Trang sức
+        <div class="title1" style="margin:  auto">
+            CHECK OUT
         </div>
     </div>
-    <img class="rim-right-silver" src="./img/Mask group.png" alt="" style="float: right; width: 10%; margin-top: 43%">
-    <img class="rim-left-silver" src="./img/Mask group left.png" alt=""
-        style="float: left; width: 10%; margin-top: 43%">
-    <div class="main-all">
-        <div class="column-filter">
-            <div class="title-filter">
-                Danh mục sản phẩm
+    <div class="main-pay-success">
+        <div class="payment-steps">
+            <div class="title">
+                1. Giỏ hàng
             </div>
-            <ul class="title-filter-detail">
-                <li>Vòng tay trầm tốc vương
-                    <div class="amount-check" style="display:flex">
-                        <p>(99)</p>
-                        <input type="checkbox" name="a">
-                    </div>
-
-                </li>
-                <li>Vòng tay trầm sánh chìm
-                    <div class="amount-check" style="display:flex">
-                        <p>(99)</p>
-                        <input type="checkbox" name="a">
-                    </div>
-                </li>
-                <li>Vòng trầm hương Việt Nam
-                    <div class="amount-check" style="display:flex">
-                        <p>(99)</p>
-                        <input type="checkbox" name="a">
-                    </div>
-                </li>
-                <li>Vòng trầm hương rừng Lào
-                    <div class="amount-check" style="display:flex">
-                        <p>(99)</p>
-                        <input type="checkbox" name="a">
-                    </div>
-                </li>
-                <li>Vòng trầm rừng cao cấp
-                    <div class="amount-check" style="display:flex">
-                        <p>(99)</p>
-                        <input type="checkbox" name="a">
-                    </div>
-                </li>
-            </ul>
-            <div class="title-filter">
-                Mức giá
+            <div class="title">
+                2. Chi tiết thanh toán
             </div>
-            <ul class="title-filter-detail">
-                <!-- <div class="range-wrap">
-                    <div class="range-value-price" id="rangeV-price">
-                        
-                    </div>
-                    <input id="range-price" type="range" min="0" max="10" value="0" step="0.1">
-                </div> -->
-
-                <div class="price-input">
-                    <div class="field">
-                        <span>Min</span>
-                        <input type="number" class="input-min" value="0">
-                    </div>
-                    <div class="separator">-</div>
-                    <div class="field">
-                        <span>Max</span>
-                        <input type="number" class="input-max" value="10000">
-                    </div>
-                </div>
-                <div class="range-wrap">
-                    <div class="range-value-price" id="rangeV-price-left">
-                        <span>0 triệu VND</span>
-                    </div>
-                    <div class="range-value-price" id="rangeV-price-right" style="left: calc(100% + -19.9px);">
-                        <span>10 triệu VND</span>
-                    </div>
-                    <div class="slider">
-                        <div class="progress"></div>
-                    </div>
-                </div>
-
-
-                <div class="range-input">
-                    <input type="range" class="range-min" min="0" max="10000" value="0" step="100">
-                    <input type="range" class="range-max" min="0" max="10000" value="10000" step="100">
-                </div>
-            </ul>
-            <div class="list-icons">
-                <div class="card-icon">
-                    <img src="./img/clarity_shield-check-line (1).png" alt="">
-                    <div class="title">
-                        ĐẢM BẢO
-                        CHẤT LƯỢNG
-                    </div>
-                    <div class="title-small">
-                        100% tự nhiên
-                    </div>
-                </div>
-                <div class="card-icon">
-                    <img src="./img/iconoir_delivery-truck (1).png" alt="">
-                    <div class="title">
-                        SHIP TOÀN QUỐC
-                    </div>
-                    <div class="title-small">
-                        3-5 ngày
-                    </div>
-                </div>
-                <div class="card-icon">
-                    <img src="./img/la_credit-card (1).png" alt="">
-                    <div class="title">
-                        THANH TOÁN
-                        ONLINE
-                    </div>
-                    <div class="title-small">
-                        an toàn và nhanh chóng
-                    </div>
-                </div>
-                <div class="card-icon">
-                    <img src="./img/Group 20 (1).png" alt="">
-                    <div class="title">
-                        ĐỔI TRẢ HÀNG
-                    </div>
-                    <div class="title-small">
-                        30 ngày
-                    </div>
-                </div>
+            <div class="title" style="color: #22242F">
+                3. Hoàn thành đơn hàng
             </div>
         </div>
-        <div class="colum-list-products">
-            <div class="amount-products">
-                297 sản phẩm
-            </div>
-            <img class="icons_settings" src="./img/akar-icons_settings-horizontal.png" alt="">
-            <div class="sort-product-list">
-                <div class="sort">
-                    Sắp xếp:
-                </div>
-                <select class="type-sort" id="type-sort" name="name-type-sort">
-                    <option value="1">Mặc định </option>
-                    <option value="2">Tên sản phẩm</option>
-                    <option value="3">Thời gian</option>
-                    <option value="4">Độ phổ biến</option>
-                </select>
-                <div class="btn-sort">
-                    <i class="fa-solid fa-arrow-up icon-btn-sort"
-                        style="width: 50%; display: block; margin: auto; text-align: center; margin-top: 12px;"></i>
-                </div>
-            </div>
-            <div class="products-list">
-                <div class="card-product">
-                    <div class="btn-card-product">
-                        Thêm vào giỏ hàng
-                    </div>
-                    <img src="./img/Rectangle 10.png" alt="">
-                    <div class="title-product">
-                        Nhang trầm hương
-                    </div>
-                    <div class="price-product">
-                        900.000 VND - 2.100.000 VND
-                    </div>
-
-                </div>
-                <div class="card-product">
-                    <div class="">
-                        <div class="btn-card-product">
-                            Thêm vào giỏ hàng
-                        </div>
-                    </div>
-
-                    <img src="./img/Rectangle 10.png" alt="">
-                    <div class="title-product">
-                        Nhang trầm hương
-                    </div>
-                    <div class="price-product">
-                        900.000 VND - 2.100.000 VND
-                    </div>
-                </div>
-                <div class="card-product">
-                    <div class="btn-card-product">
-                        Thêm vào giỏ hàng
-                    </div>
-                    <img src="./img/Rectangle 10.png" alt="">
-                    <div class="title-product">
-                        Nhang trầm hương
-                    </div>
-                    <div class="price-product">
-                        900.000 VND - 2.100.000 VND
-                    </div>
-
-                </div>
-                <div class="card-product">
-                    <div class="">
-                        <div class="btn-card-product">
-                            Thêm vào giỏ hàng
-                        </div>
-                    </div>
-
-                    <img src="./img/Rectangle 10.png" alt="">
-                    <div class="title-product">
-                        Nhang trầm hương
-                    </div>
-                    <div class="price-product">
-                        900.000 VND - 2.100.000 VND
-                    </div>
-                </div>
-                <div class="card-product">
-                    <div class="btn-card-product">
-                        Thêm vào giỏ hàng
-                    </div>
-                    <img src="./img/Rectangle 10.png" alt="">
-                    <div class="title-product">
-                        Nhang trầm hương
-                    </div>
-                    <div class="price-product">
-                        900.000 VND - 2.100.000 VND
-                    </div>
-
-                </div>
-                <div class="card-product">
-                    <div class="">
-                        <div class="btn-card-product">
-                            Thêm vào giỏ hàng
-                        </div>
-                    </div>
-
-                    <img src="./img/Rectangle 10.png" alt="">
-                    <div class="title-product">
-                        Nhang trầm hương
-                    </div>
-                    <div class="price-product">
-                        900.000 VND - 2.100.000 VND
-                    </div>
-                </div>
-                <div class="card-product">
-                    <div class="btn-card-product">
-                        Thêm vào giỏ hàng
-                    </div>
-                    <img src="./img/Rectangle 10.png" alt="">
-                    <div class="title-product">
-                        Nhang trầm hương
-                    </div>
-                    <div class="price-product">
-                        900.000 VND - 2.100.000 VND
-                    </div>
-
-                </div>
-                <div class="card-product">
-                    <div class="">
-                        <div class="btn-card-product">
-                            Thêm vào giỏ hàng
-                        </div>
-                    </div>
-
-                    <img src="./img/Rectangle 10.png" alt="">
-                    <div class="title-product">
-                        Nhang trầm hương
-                    </div>
-                    <div class="price-product">
-                        900.000 VND - 2.100.000 VND
-                    </div>
-                </div>
-                <div class="card-product">
-                    <div class="btn-card-product">
-                        Thêm vào giỏ hàng
-                    </div>
-                    <img src="./img/Rectangle 10.png" alt="">
-                    <div class="title-product">
-                        Nhang trầm hương
-                    </div>
-                    <div class="price-product">
-                        900.000 VND - 2.100.000 VND
-                    </div>
-
-                </div>
-                <div class="card-product">
-                    <div class="">
-                        <div class="btn-card-product">
-                            Thêm vào giỏ hàng
-                        </div>
-                    </div>
-
-                    <img src="./img/Rectangle 10.png" alt="">
-                    <div class="title-product">
-                        Nhang trầm hương
-                    </div>
-                    <div class="price-product">
-                        900.000 VND - 2.100.000 VND
-                    </div>
-                </div>
-                <div class="card-product">
-                    <div class="btn-card-product">
-                        Thêm vào giỏ hàng
-                    </div>
-                    <img src="./img/Rectangle 10.png" alt="">
-                    <div class="title-product">
-                        Nhang trầm hương
-                    </div>
-                    <div class="price-product">
-                        900.000 VND - 2.100.000 VND
-                    </div>
-
-                </div>
-                <div class="card-product">
-                    <div class="">
-                        <div class="btn-card-product">
-                            Thêm vào giỏ hàng
-                        </div>
-                    </div>
-
-                    <img src="./img/Rectangle 10.png" alt="">
-                    <div class="title-product">
-                        Nhang trầm hương
-                    </div>
-                    <div class="price-product">
-                        900.000 VND - 2.100.000 VND
-                    </div>
-                </div>
-            </div>
-            <div class="line"></div>
-            <ul class="number-page">
-                <div class="number" style="color: #DBAA53">1</div>
-                <div class="number">2</div>
-                <div class="number">3</div>
-                <div class="number">4</div>
-                <div class="next">next</div>
-            </ul>
+        <div class="payment-steps-line">
+            <div class="step"></div>
+            <div class="step"></div>
+            <div class="step" style="background: #000000;"></div>
         </div>
-    </div>
-    <img class="img-logo" src="./img/Mask group (3).png" alt="" style="position: absolute; transform: translateY(-40%); width: 30%">
-    <div class="list-chat">
-        <img class="chat" src="./img/ant-design_phone-filled (1).png" alt="">
-        <img class="chat" src="./img/image 3.png" alt="">
-        <img class="chat" src="./img/image 2.png" alt="">
-        <div class="btn-chat">
-            <img class="icon-btn-chat" src="./img/dashicons_arrow-left-alt2 (2).png" alt=""
-                style="display: block; margin: auto; margin-top: 10px;">
+        <div class="pay-success-detail">
+            <img class="img-success" src="./img/clarity_success-standard-solid.png" alt="">
+            <div class="title-success">
+                ĐẶT HÀNG THÀNH CÔNG!
+            </div>
+            <div class="title-table">
+                <div class="" style="width: 30%">
+                    Sản phẩm
+                </div>
+                <div class="" style="width: 17.5%">
+                    Số lượng
+                </div>
+                <div class="" style="width: 17.5%">
+                    Tổng cộng
+                </div>
+                <div class="" style="width: 17.5%">
+                    Vận chuyển
+                </div>
+                <div class="" style="width: 17.5%; text-align: right;">
+                    Thanh toán
+                </div>
+            </div>
+            <div class="line-table"></div>
+            <div class="product-table">
+                <div class="box">
+                    <div class="img-name">
+                        <img class="img" src="./img/Rectangle 10.png" alt="">
+                        <div class="name">
+                            Nụ trầm hương
+                        </div>
+                    </div>
+                    <div class="amount">
+                        1
+                    </div>
+                    <div class="price">
+                        900.000 VND
+                    </div>
+                    <div class="ship-price">
+                        Miễn phí
+                    </div>
+                    <div class="pay">
+                        COD
+                    </div>
+                </div>               
+            </div>
+            <div class="row-pay-detail-success" style="margin-top: 31px">
+                <div class="title">Mã đơn hàng:</div>
+                <div class="detail">JSDSJ7</div>
+            </div>
+            <div class="row-pay-detail-success">
+                <div class="title">Tên:</div>
+                <div class="detail">Nguyen Van A</div>
+            </div>
+            <div class="row-pay-detail-success">
+                <div class="title">Địa chỉ</div>
+                <div class="detail">123 Nguyen Van Troi Phu Nhuan Tp. Ho Chi Minh</div>
+            </div>
+            <div class="row-pay-detail-success">
+                <div class="title">Số điện thoại</div>
+                <div class="detail">0999999999</div>
+            </div>
+            <div class="row-pay-title-success">
+                Bạn sẽ nhận được email xác nhận chứa thông tin chi tiết của đơn hàng này.
+            </div>
+            <div class="title-thank-you">
+                CẢM ƠN BẠN ĐÃ MUA HÀNG Ở TRẦM THỦY!
+            </div>
+            <button class="btn-continue-buy">
+                TIẾP TỤC MUA HÀNG
+            </button>
+        </div>
+
+        <div class="pay-success-detail-moblie">
+            <img class="img-success" src="./img/clarity_success-standard-solid.png" alt="">
+            <div class="title-success">
+                ĐẶT HÀNG THÀNH CÔNG!
+            </div>
+            <div class="title-table">
+                <div class="" style="width: 50%">
+                    Sản phẩm
+                </div>
+                <div class="" style="width: 25%">
+                    Số lượng
+                </div>       
+                <div class="" style="width: 25%; text-align: right;">
+                    Thành tiền
+                </div>
+            </div>
+            <div class="line-mobile"></div>
+            <div class="product-table">
+                <div class="img-name">
+                    <img class="img" src="./img/Rectangle 10.png" alt="">
+                    <div class="name">
+                        Nụ trầm hương
+                    </div>
+                </div>
+                <div class="amount">
+                    1
+                </div>
+                <div class="price">
+                    900.000 VND
+                </div>
+            </div>
+            <div class="line-mobile"></div>
+            <div class="" style="width: 45%; float: right">
+                <div class="row-product-table-extra">
+                    <div class="title">Vận chuyển:</div>
+                    <div class="detail">FREE</div>
+                </div>
+                <div class="row-product-table-extra" style="margin-bottom: 12px">
+                    <div class="title">Phương thức thanh toán:</div>
+                    <div class="detail">COD</div>
+                </div>
+                
+            </div>
+            <div class="row-pay-detail-success">
+                <div class="title">Mã đơn hàng:</div>
+                <div class="detail">JSDSJ7</div>
+            </div>
+            <div class="row-pay-detail-success">
+                <div class="title">Tên:</div>
+                <div class="detail">Nguyen Van A</div>
+            </div>
+            <div class="row-pay-detail-success">
+                <div class="title">Địa chỉ</div>
+                <div class="detail">123 Nguyen Van Troi Phu Nhuan Tp. Ho Chi Minh</div>
+            </div>
+            <div class="row-pay-detail-success">
+                <div class="title">Số điện thoại</div>
+                <div class="detail">0999999999</div>
+            </div>
+            <div class="row-pay-title-success">
+                Bạn sẽ nhận được email xác nhận chứa thông tin chi tiết của đơn hàng này.
+            </div>
+            <div class="line-mobile"></div>
+            <div class="title-thank-you">
+                CẢM ƠN BẠN ĐÃ MUA HÀNG Ở TRẦM THỦY!
+            </div>
+            <button class="btn-continue-buy">
+                TIẾP TỤC MUA HÀNG
+            </button>
         </div>
     </div>
     <div class="home-footer">
@@ -657,7 +479,5 @@
         </div>
 
     </div>
-    <script src="./js/ListProducts.js"></script>
 </body>
-
 </html>

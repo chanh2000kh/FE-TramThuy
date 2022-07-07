@@ -703,4 +703,7 @@ input[type="range"]::-moz-range-thumb {
     .main-all .colum-list-products .products-list .card-product:hover .btn-card-product {
         display: none;
     }
+    .img-logo{
+        display: none;
+    }
 }
