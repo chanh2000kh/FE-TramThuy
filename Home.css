@@ -532,9 +532,9 @@
 .home-list-product .list-product .list-product-card {
     border: 1px solid #ACAFC3;
     width: 23%;
-    height: 384px;
     color: #22242F;
     margin: auto;
+    padding-bottom: 10px;
 }
 
 .home-list-product .list-product .list-product-card:hover {
