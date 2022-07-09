@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="./css/ListProduct.css">
     <link rel="stylesheet" href="./Home.css">
     <link rel="stylesheet" href="./css/ProductDetail.css">
+    <link rel="stylesheet" href="./css/AboutUs.css">
+    <link rel="stylesheet" href="./lib/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./lib/dist/assets/owl.theme.default.min.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="./lib/dist/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="./css/KnowledgeDetail.css">
 </head>
 
 <body>
@@ -148,6 +154,11 @@
             <div class="product-detail-column2">
                 <div class="column1-img">
                     <img class="img" src="./img/Rectangle 43.png" alt="">
+                    <div class="list-product-img-mobile">
+                        <img src="./img/Rectangle 43.png" alt="" style="margin-left: 0">
+                        <img src="./img/Rectangle 43.png" alt="">
+                        <img src="./img/Rectangle 43.png" alt="">
+                    </div>
                     <div class="list-icons">
                         <img src="./img/eva_facebook-fill-yellow.png" alt="" style="margin: auto">
                         <img src="./img/akar-icons_instagram-fill-yellow.png" alt="" style="margin: auto">
@@ -161,7 +172,7 @@
                             VÒNG TAY TRẦM HƯƠNG
                         </div>
                         <div class="row1">
-                            <img src="./img/Group 34.png" alt="">
+                            <img class="img-star" src="./img/Group 34.png" alt="">
                             <div class="number-of-reviews">
                                 (23)
                             </div>
@@ -245,19 +256,29 @@
                             <div class="title-small">100% tự nhiên</div>
                         </div>
                     </div>
+                    <div class="list-icons-mobile">
+                        <img src="./img/eva_facebook-fill-yellow.png" alt="">
+                        <img src="./img/akar-icons_instagram-fill-yellow.png" alt="">
+                        <img src="./img/akar-icons_youtube-fill-yellow.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="describe-product-detail-review">
-        <div class="title">
-            <input class="radio-input-title" type="radio" id="describe" name="radio-input-title">
-            <label for="describe" class="name">MÔ TẢ</label>
-            <input class="radio-input-title" type="radio" id="product-detail" name="radio-input-title">
-            <label for="product-detail" class="name">CHI TIẾT SẢN PHẨM</label>
-            <input class="radio-input-title" type="radio" id="review" name="radio-input-title">
-            <label for="review" class="name">ĐÁNH GIÁ (2)</label>
-        </div>
+
+        <input class="radio-input-title radio-input-title-describe-detail" type="radio" id="describe"
+            name="radio-input-title">
+        <label for="describe" class="name name-describe-detail" id="name-describe-detail" style="margin-left: 30%">MÔ
+            TẢ</label>
+        <input class="radio-input-title radio-input-title-product-detail" type="radio" id="product-detail"
+            name="radio-input-title">
+        <label for="product-detail" class="name name-product-detail">CHI TIẾT SẢN PHẨM</label>
+        <input class="radio-input-title radio-input-title-review-detail" type="radio" id="review"
+            name="radio-input-title">
+        <label for="review" class="name">ĐÁNH GIÁ (2)</label>
+
+
         <div class="describe-detail">
             <div class="question">
                 <div class="">
@@ -289,6 +310,211 @@
                 </p>
             </div>
             <div class="line"></div>
+        </div>
+
+        <div class="product-detail">
+            <div class="row">
+                <div class="title">
+                    CHẤT LIỆU
+                </div>
+                <div class="detail">
+                    Trầm Hương – Charm Bạc S925
+                </div>
+            </div>
+            <div class="row">
+                <div class="title">
+                    NGUỒN GỐC
+                </div>
+                <div class="detail">
+                    Lào
+                </div>
+            </div>
+            <div class="row">
+                <div class="title">
+                    SỐ LƯỢNG HẠT
+                </div>
+                <div class="detail">
+                    17-21 hạt (Xem hướng dẫn đo size tay)
+                </div>
+            </div>
+            <div class="row">
+                <div class="title">
+                    TUỔI TRẦM
+                </div>
+                <div class="detail">
+                    12 – 14 năm Tích Trầm
+                </div>
+            </div>
+            <div class="row">
+                <div class="title">
+                    SỬ DỤNG
+                </div>
+                <div class="detail">
+                    Nữ
+                </div>
+            </div>
+            <div class="more-detail" style="margin-top: 30px">
+                Quà tặng cho người thân, bạn bè, đồng nghiệp
+            </div>
+            <div class="more-detail">
+                Mang ý nghĩa sum họp, yên vui, thịnh vượng, bình an
+            </div>
+        </div>
+
+        <div class="review-detail">
+            <div class="row">
+
+                <img src="./img/Group 34 (1).png" alt="">
+                <div class="number-of-reviews">
+                    (2)
+                </div>
+
+                <!-- <input class="sent-review" type="radio" id="sent-review"> -->
+
+                <input class="checkbox-write-revie" type="checkbox" id="checkbox-write-review">
+                <label for="checkbox-write-review" class="nav__overplay-write-review"></label>
+                <div class="tab-write-review">
+                    <div class="product-name">NHANG TRẦM NỤ</div>
+                    <div class="leadership">
+                        Đánh giá sản phẩm từ 1 đến 5 sao và cho chúng tôi nhận xét của bạn về sản phẩm này. Cảm ơn!
+                    </div>
+                    <img src="./img/Group 136.png" alt="" style="margin-top: 76px;">
+                    <div class="name-email">
+                        <input type="text" placeholder="Tên hiển thị" style="width: 35%">
+                        <input type="email" placeholder="Email" style="width: 60%">
+                    </div>
+                    <textarea class="add-write-review" name="Viết đánh giá" id="" cols="30" rows="10"
+                        placeholder="Viết đánh giá"></textarea>
+
+                    <div class="btn-save-review">
+                        <input type="checkbox" name="" id="">
+                        <div class="title-save-review">
+                            Lưu thông tin cho bình luận sau
+                        </div>
+                        <label for="checkbox-write-review">
+                            <button class="btn-close-mobile">ĐÓNG</button>
+                        </label>
+                        <label for="sent-review">
+                            <button>GỬI</button>
+                        </label>
+
+                    </div>
+                </div>
+                <label class="write-review" for="checkbox-write-review">
+                    <img src="./img/ant-design_plus-outlined.png" alt="">
+                    Viết đánh giá
+                </label>
+            </div>
+            <div class="row-review" >
+                <div class="avatar" style=" margin-top: 15px">
+                    <img src="./img/Ellipse 10 (1).png" alt="">
+                </div>
+               
+                <div class="box">
+                    <img src="./img/Group 34 (2).png" alt="" style="">
+                    <div class="name-date">
+                        <div class="name-review">Nguyen A.</div>
+                        <div class="date-review" style="color: #ACAFC3;">23/02/2022</div>
+                    </div>
+                </div>
+                <div class="content">
+                    “ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt vivamus feugiat sed quisque id
+                    sit ut amet, ipsum
+                </div>
+            </div>
+
+            <div class="row-review">
+                <div class="avatar">
+                    <img src="./img/Ellipse 10 (1).png" alt="">
+                </div>
+                <div class="box">
+                    <img src="./img/Group 34 (2).png" alt="" style="">
+                    <div class="name-date">
+                        <div class="name-review">Nguyen A.</div>
+                        <div class="date-review" style="color: #ACAFC3;">23/02/2022</div>
+                    </div>
+                </div>
+                <div class="content">
+                    “ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt vivamus feugiat sed quisque id
+                    sit ut amet, ipsum
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="background: #F3F4F6; padding-top: 40px; margin-top: 60px;padding-bottom: 20px;">
+        <div class="knowledge-detail-list-product">
+            <div class="title">
+                <h4 class="title-type-product">SẢN PHẨM LIÊN QUAN </h4>
+            </div>
+            <div class="line">
+                <div class="line-yellow"></div>
+                <div class="line-silver"></div>
+            </div>
+    
+            <div class="mobile">
+                <div class="owl-carousel owl-theme list-product list-product-incense ">
+                    <div class="list-product-card">
+                        <img src="./img/Rectangle 43 (1).png" alt="">
+                        <div class="title-product">Nhang trầm hương</div>
+                        <div class="price-product">1.990.000 VND</div>
+                    </div>
+                    <div class="list-product-card">
+                        <img src="./img/unsplash_x8zV3NNPuAk.png" alt="">
+                        <div class="title-product">Nhang trầm hương</div>
+                        <div class="price-product">1.990.000 VND</div>
+                    </div>
+                    <div class="list-product-card">
+                        <img src="./img/unsplash_x8zV3NNPuAk.png" alt="">
+                        <div class="title-product">Nhang trầm hương</div>
+                        <div class="price-product">1.990.000 VND</div>
+                    </div>
+                    <div class="list-product-card">
+                        <img src="./img/unsplash_x8zV3NNPuAk.png" alt="">
+                        <div class="title-product">Nhang trầm hương</div>
+                        <div class="price-product">1.990.000 VND</div>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    
+
+
+    <div class="new-product-about-us" style="height: 704px; margin-top: 0;">
+        <div class="new-product-title">
+            <div class="title">
+                <div class="line"></div>
+                <div class="title1">
+                    SẢN PHẨM TƯƠNG TỰ
+                </div>
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="pc">
+            <div class="owl-carousel owl-theme list-product list-product-product-detail">
+                <div class="list-product-card">
+                    <img src="./img/unsplash_HJk_TLFW1Yw (1).png" alt="">
+                    <div class="title-product">Tượng Phật tổ gỗ trầm</div>
+                    <div class="price-product">1.990.000 VND</div>
+                </div>
+                <div class="list-product-card">
+                    <img src="./img/unsplash_HJk_TLFW1Yw (1).png" alt="">
+                    <div class="title-product">Tượng Phật tổ gỗ trầm</div>
+                    <div class="price-product">1.990.000 VND</div>
+                </div>
+                <div class="list-product-card">
+                    <img src="./img/unsplash_HJk_TLFW1Yw (1).png" alt="">
+                    <div class="title-product">Tượng Phật tổ gỗ trầm</div>
+                    <div class="price-product">1.990.000 VND</div>
+                </div>
+                <div class="list-product-card">
+                    <img src="./img/unsplash_HJk_TLFW1Yw (1).png" alt="">
+                    <div class="title-product">Tượng Phật tổ gỗ trầm</div>
+                    <div class="price-product">1.990.000 VND</div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -481,6 +707,8 @@
         </div>
 
     </div>
+    <script src="./js/ProductDetail.js"></script>
+    <script src="./js/Home.js"></script>
 </body>
 
 </html>

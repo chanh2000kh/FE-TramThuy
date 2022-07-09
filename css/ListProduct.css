@@ -39,7 +39,6 @@
 .header-all .header-all--data .user .trans {
     font-size: 30px;
     line-height: 36px;
-    /* identical to box height */
     letter-spacing: 0.1em;
     font-style: normal;
     font-weight: 400;
@@ -58,10 +57,43 @@
     width: 66%;
     margin: auto auto;
     font-weight: 600;
+   
+
 }
 
 .header-all .header-all--data .header .header1 {
     margin: auto;
+    /* position: relative; */
+    
+}
+
+.header-all .header-all--data .header .header1 .sub-menu {
+    display: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    color: #7C82A1;
+    z-index: 4;
+}
+.header-all .header-all--data .header .header1 .sub-menu li{
+    border: 0.5px solid #ACAFC3;
+    background: #FFFFFF;
+    padding: 15px 15px;
+    
+}
+.header-all .header-all--data .header .header1 .sub-menu li:hover{
+    color: #fff;
+    background:#000000;
+}
+
+.header-all .header-all--data .header .header1:hover {
+    color: #DBAA53;
+}
+
+.header-all .header-all--data .header .header1:hover > .sub-menu {
+    display: block;
+    position: absolute;
 }
 
 .link-page-all {
@@ -465,7 +497,7 @@ input[type="range"]::-moz-range-thumb {
     font-size: 21px;
     line-height: 25px;
     color: #000000;
-    padding: 12px  15px;
+    padding: 12px 15px;
     text-align: center;
     position: absolute;
     transform: translate(10%, 250%);
@@ -539,7 +571,8 @@ input[type="range"]::-moz-range-thumb {
 .header-all .header-all--data .menu {
     display: none;
 }
-.main-all .colum-list-products .icons_settings{
+
+.main-all .colum-list-products .icons_settings {
     display: none;
 }
 
@@ -696,15 +729,18 @@ input[type="range"]::-moz-range-thumb {
         width: 40px;
         height: 40px;
     }
-    .main-all .colum-list-products .icons_settings{
+
+    .main-all .colum-list-products .icons_settings {
         display: block;
         position: absolute;
-        top: 155px;       
+        top: 155px;
     }
+
     .main-all .colum-list-products .products-list .card-product:hover .btn-card-product {
         display: none;
     }
-    .img-logo{
+
+    .img-logo {
         display: none;
     }
 }
