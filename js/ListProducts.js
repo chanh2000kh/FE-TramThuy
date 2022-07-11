@@ -19,6 +19,7 @@ const rangeInput = document.querySelectorAll(".range-input input"),
   rangeVRight = document.getElementById('rangeV-price-right');
 let priceGap = 1000;
 
+
 priceInput.forEach(input => {
   input.addEventListener("input", e => {
     let minPrice = parseInt(priceInput[0].value),
